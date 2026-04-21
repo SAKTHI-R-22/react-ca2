@@ -13,7 +13,6 @@ const Orders = () => {
     <div>
       <h2>Orders</h2>
 
-      <p>DEBUG: {JSON.stringify(state.data)}</p>
 
       {validOrders.length === 0 ? (
         <p>No Orders Found</p>
